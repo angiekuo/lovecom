@@ -98,6 +98,17 @@ header ul li a{
 	line-height: 2em;
 }
 
+#about_section {
+	background-color: #ebebeb;
+	height:100%;
+	color:#424242;
+	padding:50px;
+	overflow: hidden;
+	margin:0px 50px;
+	font-size:20px;
+	line-height: 2em;
+}
+
 #journal-section {
 	background-color: #ebebeb;
 	height:100%;
@@ -198,6 +209,16 @@ div.desc {
 		font-size:18px;
 		padding:20px;
 	}
+
+	#about_section{
+		margin:0px;
+		line-height: 1.5em;
+		font-size:18px;
+		padding:20px;
+	}
+	.aboutme{
+		font-size:20px;
+	}
 	.video{
 		height:300px;
 	}
@@ -238,7 +259,15 @@ div.desc {
 		font-size:14px;
 		padding:10px;
 	}
-	
+	#about_section{
+		margin:0px;
+		line-height: 1.5em;
+		font-size:14px;
+		padding:10px;
+	}
+	.aboutme{
+		font-size: 14px;
+	}
 	#video{
 		height:auto;
 	}
@@ -262,7 +291,7 @@ div.desc {
 .outer-div
 {
   height: 100%;
-  overflow: hidden; 
+  overflow: hidden;
 }
 .inner-div
 {
